@@ -1,0 +1,84 @@
+.card{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: justify;
+    max-width: 546px;
+    /* box-shadow: 5px 5px 5px rgba(86, 85, 85, 0.5); */
+}
+
+.project__link{
+    display: flex;
+
+}
+
+.project__describe{
+    /* background-color: red; */
+    margin-top: 0;
+}
+
+button{
+    /* background-color: rgb(5, 110, 133); */
+    background-color: rgb(68, 127, 252);
+    padding: 0.8rem;
+    border: 1px solid rgb(68, 127, 252);
+    border-radius: 0.2rem;
+    color: white;
+}
+
+.project__img{
+    width: 100%;
+    height: 100%;
+}
+
+.github_link{
+    margin: 0 1rem;
+    background-color: white;
+    border: 1px solid rgb(68, 127, 252);
+    color: rgb(68, 127, 252);
+    padding: 0.8rem;
+}
+
+.card__sect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 992px) {
+    .card{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 946px;
+        padding: 2rem;
+    }
+
+    .project__img{
+        width: 50%;
+        height: 100%;
+        margin: 0 2rem;
+    }
+
+    button:hover{
+        background-color: white;
+        border: 1px solid rgb(68, 127, 252);
+        color: rgb(68, 127, 252);
+        transition: all 0.5s ease-in-out;
+    }
+
+    .github_link:hover{
+        background-color: rgb(68, 127, 252);
+        color: white;
+        border: 1px solid rgb(68, 127, 252);
+        transition: all 0.5s ease-in-out;
+    }
+}

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+.main_navbar{
+    background-color: rgba(219, 239, 252, 0.6);
+}
+
+.navbar__sect{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    position: relative;
+    z-index: 200;
+}
+
+.my_logo{
+    color: rgb(0, 30, 95);
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.toggle__nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 50%; */
+    border: none;
+    background: none;
+}
+
+.top_toggle,
+.toggle_middle,
+.toggle_bottom{
+    width: 25px;
+    height: 3px;
+    margin: 1.5px 0;
+    background-color: rgb(5, 110, 133);
+    transition: all 0.3s ease-in-out;
+}
+
+.top_true{
+    transform: translateY(0.4rem) rotate(-55deg);
+}
+
+.middle_true{
+    display: none;
+}
+
+.bottom_true{
+    transform: rotate(50deg);
+}
+
+.nav_logo{
+    /* background-color: red; */
+}
+
+.nav_logo a{
+    text-decoration: none;
+    color: rgb(4, 77, 146);
+}
+
+.mobile__nav{
+    background-color: white;
+    padding: 0.5rem 0rem;
+    margin: 0 auto;
+    opacity: 0;
+    transform: translateX(-20rem);
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+
+.mobile__nav li{
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.mobile__nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.mobile__nav a:hover{
+    color: green;
+}
+
+.mobile__active{
+    transform: translateY(0rem);
+    opacity: 1;
+}
+
+.desktop__nav{
+    display: none;
+}
+
+@media (min-width: 992px){
+    .mobile__nav{
+        display: none;
+    }
+
+    .toggle__nav{
+        display: none;
+    }
+
+    .desktop__nav{
+        display: block;
+    }
+
+    .desktop__nav ul{
+        display: flex;
+    }
+
+    .desktop__nav li{
+        list-style: none;
+        margin: 1rem;
+    }
+
+    .desktop__nav a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .desktop__nav a:hover{
+        color: rgb(0, 30, 95);
+        border-bottom: 2px solid rgb(0, 30, 95);
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+
+    .navbar__sect{
+        margin: 0 10rem;
+    }
+
+    .nav__active{
+        border-bottom: 2px solid rgb(0, 30, 95);
+    }
+}

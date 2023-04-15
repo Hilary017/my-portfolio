@@ -1,0 +1,46 @@
+.info__sect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.my_pix{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.image__sect{
+    text-align: center;
+}
+
+.intro__section{
+    background-color: rgba(219, 239, 252, 0.6);
+}
+
+.my__name{
+    color: rgb(0, 30, 95);
+    margin-bottom: -0.5rem;
+    font-size: 3rem;
+}
+
+@media (min-width: 992px){
+    .intro__division{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 10rem;
+    }
+
+    .image__sect{
+        order: 2;
+        text-align: start;
+    }
+
+    .info__sect{
+        text-align: start;
+    }
+}
