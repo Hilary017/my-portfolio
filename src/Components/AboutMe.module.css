@@ -9,6 +9,17 @@
     text-align: center;
 }
 
+.about__description{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+
+.about__description a{
+    text-align: center;
+}
+
 .intro__division{
     text-align: center;
     margin: 2rem 1rem;

@@ -44,16 +44,16 @@ const Navbar = () => {
         <div className={`${classes.mobile__nav} ${toggle ? classes.mobile__active : null}`}>
             <ul>
                 <li>
-                    <a href="#home">Home</a>
+                    <a href="#home" onClick={toggleNavbar}>Home</a>
                 </li>
                 <li>
-                    <a href="#about">About Me</a>
+                    <a href="#about" onClick={toggleNavbar}>About Me</a>
                 </li>
                 <li>
-                    <a href="#project">Projects</a>
+                    <a href="#project" onClick={toggleNavbar}>Projects</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact Me</a>
+                    <a href="#contact" onClick={toggleNavbar}>Contact Me</a>
                 </li>
             </ul>
         </div>

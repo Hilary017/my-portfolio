@@ -13,6 +13,10 @@
     justify-content: space-between;
 }
 
+.svg__sect a{
+    color: white;
+}
+
 .svg__sect svg{
     margin: 0 0.5rem;
 }
