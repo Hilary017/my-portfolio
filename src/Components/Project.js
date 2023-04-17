@@ -9,10 +9,10 @@ const Project = (props) => {
                 <h3>{props.title}</h3>
                 <p className={classes.project__describe}>{props.description}</p>
                 <div className={classes.project__link}>
-                    <a target="_" href={props.git}>
+                    <a target="_blank" rel="noreferrer" href={props.git}>
                         <button className={classes.github_link}>Github</button>
                     </a>
-                    <a target="_" href={props.url}>
+                    <a target="_blank" rel="noreferrer" href={props.url}>
                         <button className={classes.site__link}>Visit Site</button>
                     </a>
                 </div>

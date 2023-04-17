@@ -15,7 +15,7 @@ const AboutMe = () => {
                             get better and become a software engineer. I believe there is no limit to what a man can achieve. 
                             Determination is key!
                         </p>
-                        <a target="_" href="https://drive.google.com/file/d/1B5QAP3aaFRFJ2MvfaWiIIRLhz8BXD_Nf/view?usp=sharing">
+                        <a target="_" href="https://drive.google.com/file/d/1s8bb9sMG_z4yJDkACF4sEyxqei7mOTIz/view?usp=share_link">
                             <button className={classes.download__cv}>View CV</button>
                         </a>
                     </div>

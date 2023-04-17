@@ -10,17 +10,17 @@ const Portfolio = () => {
             id: "d2",
             image: stores,
             title: "hillStores",
-            url: "https://hillstores.netlify.app/",
+            url: "https://hillsstores.netlify.app/",
             git: "https://github.com/Hilary017/hillsStores",
-            description: "hillsStores is an e-commerce website built with react.js. The useContext API was used to manage state accross components. Paystack payment gateway was implemented to enable users make seamless payment for goods purchased right from their bedroom. Do take a tour around the website and have a wonderful shopping experience."
+            description: "hillsStores is a fully responsive e-commerce single page application(SPA) built with react.js. The useContext API was used to manage state accross components. Paystack payment gateway was implemented to enable users make seamless payment for goods purchased right from their bedroom. Do take a tour around the website and have a wonderful shopping experience."
         },
         {
             id: "d1",
             image: ratepunk,
             title: "Ratepunk",
-            url: "https://ratepunksite.netlify.app/",
+            url: "https://hillsratepunk.netlify.app/",
             git: "https://github.com/Hilary017/ratepunk",
-            description: "Ratepunk is a landing page built for a gaming company. This includes a login component that validates the email address entered by the user and if the email is valid, stores the email address on a dummy database, created on firebase."
+            description: "Ratepunk is a landing page built for a hotel booking company. This includes a login component that validates the email address entered by the user and if the email is valid, stores the email address on a dummy database, created on firebase."
         },
         {
             id: "d2",
