@@ -7,7 +7,7 @@ import classes from "./Portfolio.module.css";
 const Portfolio = () => {
     const projects = [
         {
-            id: "d2",
+            id: "d1",
             image: stores,
             title: "hillStores",
             url: "https://hillsstores.netlify.app/",
@@ -15,7 +15,7 @@ const Portfolio = () => {
             description: "hillsStores is a fully responsive e-commerce single page application(SPA) built with react.js. The useContext API was used to manage state accross components. Paystack payment gateway was implemented to enable users make seamless payment for goods purchased right from their bedroom. Do take a tour around the website and have a wonderful shopping experience."
         },
         {
-            id: "d1",
+            id: "d2",
             image: ratepunk,
             title: "Ratepunk",
             url: "https://hillsratepunk.netlify.app/",
@@ -23,17 +23,17 @@ const Portfolio = () => {
             description: "Ratepunk is a landing page built for a hotel booking company. This includes a login component that validates the email address entered by the user and if the email is valid, stores the email address on a dummy database, created on firebase."
         },
         {
-            id: "d2",
+            id: "d3",
             image: academy,
             title: "hillsAcademy",
             url: "https://hillsacademy.netlify.app/",
             git: "https://github.com/Hilary017/hillsacademy",
-            description: "hillsAcademy is a fully responsive static school website built with HTML, CSS and Bootstrap."
+            description: "hillsAcademy is a fully responsive school website built with HTML, CSS and Bootstrap."
         },
     ]
 
     return <div className={classes.portfolio__sect}>
-            <h2 style={{textAlign: "center", color: "rgb(0, 30, 95)"}}>My Projects</h2>
+            <h2 style={{textAlign: "center", color: "rgb(0, 30, 95)", fontWeight: "bold", fontSize: "2rem"}}>My Projects</h2>
         {projects.map(item => <Project key={item.id} 
                                         image={item.image} 
                                         title={item.title} 

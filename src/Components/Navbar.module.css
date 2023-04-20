@@ -7,14 +7,15 @@
 .navbar__sect{
     display: flex;
     justify-content: space-between;
-    margin: 0 1rem;
     position: relative;
-    z-index: 200;
+    padding: 1rem;
+    /* z-index: 200; */
 }
 
 .my_logo{
     color: rgb(0, 30, 95);
     font-family: 'Sedgwick Ave Display', cursive;
+    font-weight: bolder;
 }
 
 .toggle__nav{
@@ -127,8 +128,16 @@
         transform: scale(1.2);
     }
 
-    .navbar__sect{
+    /* .navbar__sect{
         margin: 0 10rem;
+    } */
+
+    .navbar__sect{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        padding: 1rem 0;
+        /* z-index: 200; */
     }
 
     .nav__active{

@@ -3,7 +3,7 @@ import image from "../images/mypix.jpg";
 
 const Intro = () => {
     return <div className={classes.intro__section}>
-        <div className={classes.intro__division}>
+        <div className={`container ${classes.intro__division}`}>
             <div className={classes.image__sect}>
                 <img src={image} className={classes.my_pix} alt="my face" />
             </div>

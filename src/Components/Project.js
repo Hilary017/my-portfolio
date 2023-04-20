@@ -6,7 +6,7 @@ const Project = (props) => {
         <div className={classes.card}>
             <img src={props.image} className={classes.project__img} alt="ratepunk" />
             <div>
-                <h3>{props.title}</h3>
+                <h5 style={{fontWeight: "bold"}}>{props.title}</h5>
                 <p className={classes.project__describe}>{props.description}</p>
                 <div className={classes.project__link}>
                     <a target="_blank" rel="noreferrer" href={props.git}>

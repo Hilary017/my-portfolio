@@ -16,14 +16,23 @@
     line-height: 2rem;
 }
 
+@media (max-width: 600px) {
+    .about__description{
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        line-height: 2rem;
+        padding: 0 1rem;
+    }
+}
+
 .about__description a{
     text-align: center;
 }
 
 .intro__division{
     text-align: center;
-    margin: 2rem 1rem;
-    /* padding: 0 1rem; */
+    padding: 2rem 0;
 }
 
 .download__cv{
@@ -34,28 +43,21 @@
 @media (min-width: 992px){
     .about__sect{
         display: flex;
-        text-align: center;
     }
 
     .about__sect h2{
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 40%;
+        margin: 3rem auto;
     }
    
     .about__description{
-        width: 50%;
-        text-align: justify;
-        line-height: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 60%;
+        line-height: 2rem;
+        
     }
 
     .intro__division{
-        margin: 2rem 10rem;
+        width: 100%;
     }
 
     .download__cv:hover{

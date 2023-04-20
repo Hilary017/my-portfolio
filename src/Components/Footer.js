@@ -3,6 +3,7 @@ import classes from "./Footer.module.css";
 const Footer = () => {
     return <div className={classes.footer__container} id="contact">
         <div className={classes.footer__sect}>
+            <h4>Let's get in touch</h4>
             <div className={classes.svg__sect}>
                 <a target="_" href="mailto:ugwuhilary017@gmail.com">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
@@ -21,7 +22,7 @@ const Footer = () => {
                     </svg>
                 </a>
             </div>
-            <p>Copyright &copy; 2023 Personal Portfolio</p>
+            <p style={{marginBottom: "0"}}>Copyright &copy; 2023 Personal Portfolio</p>
         </div>
     </div>
 }
