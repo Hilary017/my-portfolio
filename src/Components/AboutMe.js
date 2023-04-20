@@ -1,12 +1,21 @@
 
 import classes from "./AboutMe.module.css";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const AboutMe = () => {
+    useEffect(() => {
+        Aos.init({
+            duration: 1500
+        })
+    }, [])
+
     return <div>
             <div className={`container ${classes.intro__division}`} id="about">
-                <div className={classes.about__sect}>
+                <div data-aos="fade-up" className={classes.about__sect}>
                     <h2 style={{color: "rgb(0, 30, 95)", fontWeight: "bold", fontSize: "2rem"}}>About Me</h2>
-                    <div className={classes.about__description}>
+                    <div  className={classes.about__description}>
                         <p>
                             I am a front-end web developer with proficiency in HTML5, CSS3, Bootstrap5, 
                             SASS, JavaScript, React, Redux and Git. Currently, I am taking a course on node.js so 

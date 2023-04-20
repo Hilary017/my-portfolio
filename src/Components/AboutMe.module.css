@@ -57,7 +57,8 @@
     }
 
     .intro__division{
-        width: 100%;
+        width: 80%;
+        max-width: 1520px;
     }
 
     .download__cv:hover{

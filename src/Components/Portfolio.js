@@ -4,7 +4,17 @@ import stores from "../images/hillsStores.png";
 import academy from "../images/hillsAcademy.png"
 import classes from "./Portfolio.module.css";
 
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const Portfolio = () => {
+    useEffect(() => {
+        Aos.init({
+            duration: 2000
+        })
+    }, []);
+
     const projects = [
         {
             id: "d1",

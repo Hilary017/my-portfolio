@@ -1,8 +1,18 @@
 import img from "../images/logo.svg";
 import classes from "./Project.module.css";
 
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const Project = (props) => {
-    return <div className={classes.card__sect} id="project">
+    useEffect(() => {
+        Aos.init({
+            duration: 1500
+        })
+    }, []);
+
+    return <div data-aos="fade-up" className={classes.card__sect} id="project">
         <div className={classes.card}>
             <img src={props.image} className={classes.project__img} alt="ratepunk" />
             <div>

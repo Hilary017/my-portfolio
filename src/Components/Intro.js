@@ -1,7 +1,16 @@
 import classes from "./Intro.module.css";
 import image from "../images/mypix.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Intro = () => {
+    // useEffect(() => {
+    //     Aos.init({
+    //         duration: 2000
+    //     })
+    // }, [])
+
     return <div className={classes.intro__section}>
         <div className={`container ${classes.intro__division}`}>
             <div className={classes.image__sect}>
