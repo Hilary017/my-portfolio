@@ -1,7 +1,7 @@
 import Project from "./Project"
 import ratepunk from "../images/ratepunk.png";
 import stores from "../images/hillsStores.png";
-import academy from "../images/hillsAcademy.png"
+import form from "../images/multistepform.png";
 import classes from "./Portfolio.module.css";
 
 import { useEffect } from "react";
@@ -34,22 +34,22 @@ const Portfolio = () => {
         },
         {
             id: "d3",
-            image: academy,
-            title: "hillsAcademy",
-            url: "https://hillsacademy.netlify.app/",
-            git: "https://github.com/Hilary017/hillsacademy",
-            description: "hillsAcademy is a fully responsive school website built with HTML, CSS and Bootstrap."
+            image: form,
+            title: "hillsMultiStepForm",
+            url: "https://hillsmultistepform.netlify.app/",
+            git: "https://github.com/Hilary017/MultiStepForm",
+            description: "hillsAcademy is a fully responsive multi-step registration form built with React.js. The form is divided into four pages, 3 steps and a finishing page for users to confirm all the entered information from step 1 to 3. On this project, the Redux toolkit was used to manage state accross various components while the react-router-dom was used to manage the various pages into a single page. User information is collected and then stored on a dummy database created on Firebase."
         },
     ]
 
     return <div className={classes.portfolio__sect}>
             <h2 style={{textAlign: "center", color: "rgb(0, 30, 95)", fontWeight: "bold", fontSize: "2rem"}}>My Projects</h2>
-        {projects.map(item => <Project key={item.id} 
-                                        image={item.image} 
-                                        title={item.title} 
-                                        git={item.git}
-                                        url={item.url}
-                                        description={item.description} />)}
+            {projects.map(item => <Project key={item.id} 
+                                            image={item.image} 
+                                            title={item.title} 
+                                            git={item.git}
+                                            url={item.url}
+                                            description={item.description} />)}
     </div>
 }
 

@@ -1,4 +1,3 @@
-import img from "../images/logo.svg";
 import classes from "./Project.module.css";
 
 import { useEffect } from "react";
@@ -15,7 +14,7 @@ const Project = (props) => {
     return <div data-aos="fade-up" className={classes.card__sect} id="project">
         <div className={classes.card}>
             <img src={props.image} className={classes.project__img} alt="ratepunk" />
-            <div>
+            <div style={{width: "50%"}}>
                 <h5 style={{fontWeight: "bold"}}>{props.title}</h5>
                 <p className={classes.project__describe}>{props.description}</p>
                 <div className={classes.project__link}>

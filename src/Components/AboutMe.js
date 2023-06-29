@@ -17,14 +17,15 @@ const AboutMe = () => {
                     <h2 style={{color: "rgb(0, 30, 95)", fontWeight: "bold", fontSize: "2rem"}}>About Me</h2>
                     <div  className={classes.about__description}>
                         <p>
-                            I am a front-end web developer with proficiency in HTML5, CSS3, Bootstrap5, 
-                            SASS, JavaScript, React, Redux and Git. Currently, I am taking a course on node.js so 
-                            as to understand the backend part of web development and broaden my knowledge about
-                            web development. I love to take up coding challenges as I believe this is the only way to
-                            get better and become a software engineer. I believe there is no limit to what a man can achieve. 
-                            Determination is key!
+                            I am a full-stack developer with proficiency in HTML5, CSS3, Bootstrap5, JavaScript, React.js, 
+                            Next.js, Node.js, Express.js, Git and GitHub. I also have knowledge of cloud computing as 
+                            I have taken and passed both the AWS Cloud Practitioner and Developer Associate exams. 
+                            I am passionate about software development and problem solving. I am inquisitive and curious as 
+                            I always want to know why things are done in their current ways and if there are better ways of doing them. 
+                            I love challenging tasks as it pushes me to learn new things. 
+                            I believe that there is no limit to what a man can achieve. Determination is key.
                         </p>
-                        <a target="_" href="https://drive.google.com/file/d/1DGjn4eSGRqXoRWDiO_VlWiD5_jkrTFP_/view?usp=sharing">
+                        <a target="_" href="https://drive.google.com/file/d/1UcQwJtmAuOvmbUjlT1DdmTZ_-PP-IcJh/view?usp=sharing">
                             <button className={classes.download__cv}>View CV</button>
                         </a>
                     </div>
