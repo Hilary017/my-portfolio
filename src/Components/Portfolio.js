@@ -38,7 +38,7 @@ const Portfolio = () => {
             title: "hillsMultiStepForm",
             url: "https://hillsmultistepform.netlify.app/",
             git: "https://github.com/Hilary017/MultiStepForm",
-            description: "hillsAcademy is a fully responsive multi-step registration form built with React.js. The form is divided into four pages, 3 steps and a finishing page for users to confirm all the entered information from step 1 to 3. On this project, the Redux toolkit was used to manage state accross various components while the react-router-dom was used to manage the various pages into a single page. User information is collected and then stored on a dummy database created on Firebase."
+            description: "hillsMultiStepForm is a fully responsive multi-step registration form built with React.js. The form is divided into four pages, 3 steps and a finishing page for users to confirm all the entered information from step 1 to 3. On this project, the Redux toolkit was used to manage state accross various components while the react-router-dom was used to manage the various pages into a single page. User information is collected and then stored on a dummy database created on Firebase."
         },
     ]
 

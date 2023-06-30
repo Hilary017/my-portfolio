@@ -25,7 +25,7 @@ const AboutMe = () => {
                             I love challenging tasks as it pushes me to learn new things. 
                             I believe that there is no limit to what a man can achieve. Determination is key.
                         </p>
-                        <a target="_" href="https://drive.google.com/file/d/1UcQwJtmAuOvmbUjlT1DdmTZ_-PP-IcJh/view?usp=sharing">
+                        <a target="_" href="https://drive.google.com/file/d/1XRVPIML40Ofts606r1zpS75wP6lCe-Vc/view?usp=sharing">
                             <button className={classes.download__cv}>View CV</button>
                         </a>
                     </div>
